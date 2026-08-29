@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FarmDNA | Smart Farming</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            <div class="logo-icon">🧬</div>
+
+            <div>
+                <h2>Farm<span>DNA</span></h2>
+                <p>SMART FARMING</p>
+            </div>
+        </div>
+
+        <nav>
+
+            <button class="nav-item active" data-section="dashboard">
+                <span>⌂</span>
+                Dashboard
+            </button>
+
+            <button class="nav-item" data-section="dna">
+                <span>🧬</span>
+                Farm DNA
+            </button>
+
+            <button class="nav-item" data-section="crops">
+                <span>🌱</span>
+                Crops
+            </button>
+
+            <button class="nav-item" data-section="water">
+                <span>💧</span>
+                Water
+            </button>
+
+            <button class="nav-item" data-section="weather">
+                <span>☀️</span>
+                Weather
+            </button>
+
+            <button class="nav-item" data-section="pest">
+                <span>🐛</span>
+                Pest Intelligence
+            </button>
+
+            <button class="nav-item" data-section="ai">
+                <span>🤖</span>
+                FarmDNA AI
+            </button>
+
+        </nav>
+
+        <div class="farm-mini">
+
+            <small>ACTIVE FARM</small>
+
+            <strong>🌾 Green Valley Farm</strong>
+
+            <p>Vijayawada · 12 Acres</p>
+
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN -->
+    <main class="main">
+
+        <!-- HEADER -->
+        <header class="header">
+
+            <div>
+                <p class="date">Saturday · August 29, 2026</p>
+
+                <h1>
+                    Good evening, Farmer 👋
+                </h1>
+            </div>
+
+            <div class="header-actions">
+
+                <button class="notification" id="notificationBtn">
+                    🔔
+                    <span></span>
+                </button>
+
+                <div class="profile">
+                    A
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- FARM SELECTOR -->
+        <div class="farm-selector">
+
+            <div class="farm-selector-icon">
+                🌾
+            </div>
+
+            <div>
+                <small>MY FARM</small>
+
+                <strong>
+                    Green Valley Farm · Vijayawada
+                </strong>
+            </div>
+
+            <div class="arrow">
+                ▾
+            </div>
+
+        </div>
+
+
+        <!-- HERO -->
+        <section class="hero-section">
+
+            <div class="hero">
+
+                <div class="hero-content">
+
+                    <p class="eyebrow">
+                        DIGITAL FARM IDENTITY
+                    </p>
+
+                    <h2>
+                        Your Farm Has
+                        <br>
+                        Its Own <span>DNA.</span>
+                    </h2>
+
+                    <p class="hero-description">
+
+                        FarmDNA learns from your soil, crops,
+                        water, weather, pests and yield to help
+                        you make smarter farming decisions.
+
+                    </p>
+
+                    <button class="primary-btn" id="dnaBtn">
+
+                        Explore Farm DNA
+                        <span>→</span>
+
+                    </button>
+
+                </div>
+
+
+                <!-- DNA CIRCLE -->
+
+                <div class="dna-visual">
+
+                    <div class="orbit orbit-1"></div>
+                    <div class="orbit orbit-2"></div>
+
+                    <div class="dna-score">
+
+                        <strong>87</strong>
+
+                        <small>DNA SCORE</small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- WEATHER CARD -->
+
+            <div class="weather-card">
+
+                <div class="weather-top">
+
+                    <div>
+                        <h3>Today's Weather</h3>
+
+                        <p>
+                            Vijayawada, Andhra Pradesh
+                        </p>
+                    </div>
+
+                    <div class="weather-icon">
+                        ☀️
+                    </div>
+
+                </div>
+
+                <div class="temperature">
+                    29°
+                </div>
+
+                <div class="weather-status">
+                    ● Good conditions for farming
+                </div>
+
+                <div class="weather-details">
+
+                    <div>
+                        <small>Humidity</small>
+                        <strong>68%</strong>
+                    </div>
+
+                    <div>
+                        <small>Rain</small>
+                        <strong>20%</strong>
+                    </div>
+
+                    <div>
+                        <small>Wind</small>
+                        <strong>12 km/h</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- QUICK ACTIONS -->
+
+        <section class="section">
+
+            <div class="section-header">
+                <h2>Quick Actions</h2>
+            </div>
+
+            <div class="quick-actions">
+
+                <button class="quick-card" data-action="crops">
+                    <div>🌱</div>
+                    <span>Crops</span>
+                </button>
+
+                <button class="quick-card" data-action="water">
+                    <div>💧</div>
+                    <span>Water</span>
+                </button>
+
+                <button class="quick-card" data-action="weather">
+                    <div>🌦️</div>
+                    <span>Weather</span>
+                </button>
+
+                <button class="quick-card" data-action="pest">
+                    <div>🐛</div>
+                    <span>Pest</span>
+                </button>
+
+                <button class="quick-card" data-action="soil">
+                    <div>🧪</div>
+                    <span>Soil</span>
+                </button>
+
+                <button class="quick-card" data-action="ai">
+                    <div>✦</div>
+                    <span>AI Insights</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- DNA + AI -->
+
+        <section class="two-column section">
+
+
+            <!-- DNA PASSPORT -->
+
+            <div class="card">
+
+                <div class="card-header">
+
+                    <div>
+                        <h2>Farm DNA Passport</h2>
+                        <p>Live farm personality profile</p>
+                    </div>
+
+                    <button class="text-btn" id="detailsBtn">
+                        View Details →
+                    </button>
+
+                </div>
+
+
+                <div class="dna-passport">
+
+                    <div class="dna-ring">
+
+                        <div class="dna-ring-inner">
+
+                            <strong>87</strong>
+
+                            <small>HEALTHY</small>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="dna-properties">
+
+                        <div class="property">
+                            <span>🌱 Soil</span>
+                            <strong>82</strong>
+                            <small>GOOD</small>
+                        </div>
+
+                        <div class="property">
+                            <span>💧 Water</span>
+                            <strong>78</strong>
+                            <small>STABLE</small>
+                        </div>
+
+                        <div class="property">
+                            <span>🌾 Crop</span>
+                            <strong>91</strong>
+                            <small>EXCELLENT</small>
+                        </div>
+
+                        <div class="property">
+                            <span>☀️ Weather</span>
+                            <strong>86</strong>
+                            <small>GOOD</small>
+                        </div>
+
+                        <div class="property">
+                            <span>🐛 Pest</span>
+                            <strong>92</strong>
+                            <small>LOW RISK</small>
+                        </div>
+
+                        <div class="property">
+                            <span>📈 Yield</span>
+                            <strong>84</strong>
+                            <small>RISING</small>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- AI CARD -->
+
+            <div class="card ai-card">
+
+                <div class="ai-title">
+
+                    <div class="ai-icon">
+                        ✦
+                    </div>
+
+                    <div>
+                        <h2>FarmDNA AI</h2>
+                        <p>Your intelligent farm companion</p>
+                    </div>
+
+                </div>
+
+
+                <div class="ai-message">
+
+                    <strong>AI INSIGHT</strong>
+
+                    <p>
+
+                        Your soil moisture is falling
+                        <b>14% faster</b> than your normal
+                        Farm DNA pattern.
+
+                    </p>
+
+                    <p>
+
+                        Based on today's weather,
+                        <b>irrigation tomorrow morning</b>
+                        would be more efficient than
+                        irrigating tonight.
+
+                    </p>
+
+                </div>
+
+
+                <div class="ai-footer">
+
+                    <div>
+
+                        <small>EXPECTED IMPACT</small>
+
+                        <strong>
+                            Save 8–12% water
+                        </strong>
+
+                    </div>
+
+                    <button class="dark-btn" id="actionBtn">
+                        Take Action
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FARM INTELLIGENCE -->
+
+        <section class="section">
+
+            <div class="section-header">
+
+                <h2>Farm Intelligence</h2>
+
+                <button class="text-btn">
+                    View All →
+                </button>
+
+            </div>
+
+
+            <div class="metrics">
+
+
+                <!-- SOIL -->
+
+                <div class="metric-card">
+
+                    <div class="metric-header">
+
+                        <h3>🌱 Soil Health</h3>
+
+                        <span>🧪</span>
+
+                    </div>
+
+                    <div class="metric-number">
+                        82<span>/100</span>
+                    </div>
+
+                    <p>
+                        Moisture 64% · pH 6.7
+                    </p>
+
+                    <div class="progress">
+                        <div style="width:82%"></div>
+                    </div>
+
+                    <div class="metric-footer">
+                        <span>Last season</span>
+                        <b>↑ 7%</b>
+                    </div>
+
+                </div>
+
+
+                <!-- CROP -->
+
+                <div class="metric-card">
+
+                    <div class="metric-header">
+
+                        <h3>🌾 Crop Health</h3>
+
+                        <span>🌱</span>
+
+                    </div>
+
+                    <div class="metric-number">
+                        91<span>%</span>
+                    </div>
+
+                    <p>
+                        Rice · Flowering · Day 72
+                    </p>
+
+                    <div class="progress">
+                        <div style="width:91%"></div>
+                    </div>
+
+                    <div class="metric-footer">
+                        <span>Expected yield</span>
+                        <b>4.8 t/acre</b>
+                    </div>
+
+                </div>
+
+
+                <!-- WATER -->
+
+                <div class="metric-card">
+
+                    <div class="metric-header">
+
+                        <h3>💧 Water Efficiency</h3>
+
+                        <span>💧</span>
+
+                    </div>
+
+                    <div class="metric-number">
+                        78<span>%</span>
+                    </div>
+
+                    <p>
+                        1,840 L used today
+                    </p>
+
+                    <div class="progress">
+                        <div style="width:78%"></div>
+                    </div>
+
+                    <div class="metric-footer">
+                        <span>Water saved</span>
+                        <b>↑ 12%</b>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EVOLUTION -->
+
+        <section class="card evolution">
+
+            <div class="card-header">
+
+                <div>
+                    <h2>Farm DNA Evolution</h2>
+
+                    <p>
+                        Your farm is learning over time
+                    </p>
+                </div>
+
+                <span class="year">
+                    2023 — 2026
+                </span>
+
+            </div>
+
+
+            <div class="chart">
+
+                <div class="bar" style="height:55%">
+                    <span>71</span>
+                </div>
+
+                <div class="bar" style="height:65%">
+                    <span>76</span>
+                </div>
+
+                <div class="bar" style="height:77%">
+                    <span>82</span>
+                </div>
+
+                <div class="bar active-bar" style="height:90%">
+                    <span>87</span>
+                </div>
+
+            </div>
+
+
+            <div class="chart-labels">
+
+                <span>2023</span>
+                <span>2024</span>
+                <span>2025</span>
+                <span>2026</span>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- MOBILE NAV -->
+
+    <nav class="mobile-nav">
+
+        <button class="active">⌂</button>
+        <button>🧬</button>
+        <button>🌱</button>
+        <button>🤖</button>
+        <button>👤</button>
+
+    </nav>
+
+
+    <!-- TOAST -->
+
+    <div id="toast" class="toast">
+        <strong>FarmDNA</strong>
+        <span>Action completed successfully.</span>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
